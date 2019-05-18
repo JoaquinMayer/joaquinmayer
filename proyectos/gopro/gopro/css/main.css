@@ -1,0 +1,20 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slick-prev,
+.slick-next {z-index: 1;}
+.slick-next {right: 0;}
+.slick-prev {left: 0;}
+
+#page_intro .ui-content{
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+.padding{
+    padding: 1em;
+}

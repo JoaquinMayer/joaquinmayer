@@ -1,0 +1,50 @@
+/*GENERALES*/ 
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width:100%;
+    height: auto;
+}
+.center{
+    text-align: center;   
+}
+.justificado{
+    text-align: justify;
+}
+
+
+/*PANEL*/
+#panel_menu img{
+    margin: 15% 15% 15% 15%;
+}
+
+/*INTRO*/
+#page_intro{
+    background-color: #f4eae1;
+    background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23652525' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+#page_intro img{
+    margin: 35% 0 20% 0;
+}
+
+/*DISCOGRAFIA*/
+/* Search */
+.ui-input-search {border-color: #CCC!important;}
+
+/* Obras */
+.discos .disco {
+    padding: 0!important;
+}
+.discos .disco img {
+    position: relative!important;
+    display: block!important;
+    width: auto!important;
+    min-width: 100%!important;
+    height: auto!important;
+    max-height: none!important;
+}
+
+.discos h2 {
+    padding: 7px 30px;
+}
