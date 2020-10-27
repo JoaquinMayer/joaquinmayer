@@ -1,0 +1,15 @@
+<template>
+  <!-- Preloader Start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader Ends -->
+</template>
+
+<script>
+export default {
+    name: 'Loader'
+}
+</script>
