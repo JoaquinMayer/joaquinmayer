@@ -1,195 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset=" UTF-8 " />
 
-    <meta name="description" content="Porfolio de diseñador web y desarrollador web" />
-    <meta
-      name="keywords"
-      content="porfolio, web, diseño, design, diseñador, desarrollador, developer, página web, aplicación"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
-    <meta name="author" content="Joaquin Mayer" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Joaquín Mayer</title>
+<head>
+  <meta charset=" UTF-8 " />
 
-    <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
+  <meta name="description" content="Porfolio de diseñador web y desarrollador web" />
+  <meta name="keywords"
+    content="porfolio, web, diseño, design, diseñador, desarrollador, developer, página web, aplicación" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+  <meta name="author" content="Joaquin Mayer" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Joaquín Mayer | Full Stack Developer</title>
 
-    <!-- ARCHIVOS CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/loaders.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119128955-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
 
-      gtag('config', 'UA-119128955-1');
-    </script>
-  </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119128955-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <body>
-    <div id="loader">
-      <div class="loader" id="loader-ico">
-        <div class="square-spin">
-          <div></div>
-        </div>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119128955-1');
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .h1 {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .h2 {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1b1f23;
+      color: #FFF;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .mt-1 {
+      margin-top: 1rem;
+    }
+
+    .mt-2 {
+      margin-top: 2rem;
+    }
+
+    .d-flex {
+      display: flex;
+    }
+
+    .justify-content-center {
+      justify-content: center;
+    }
+    .text-white{
+      color: #FFF;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div>
+      <h2 class="h2">Full Stack Developer</h2>
+      <h1 class="h1">Joaquín Mayer</h1>
+      <div class="text-center mt-1">
+        <p>🚧 Work In Progress 🚧</p>
+      </div>
+      <div class="mt-1 d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/joaquinmayer/" target="_blank" rel="noopener noreferrer"><img
+            src="/img/In-White-34.png" alt="linkedin white logo"></a>
+      </div>
+      <div class="mt-2">
+        <p>Work: <a href="https://www.vexels.com" target="_blank" rel="noopener noreferrer" class="text-white">Vexels</a></p>
+        <p>Startup: <a href="https://www.dialecto.com" target="_blank" rel="noopener noreferrer" class="text-white">Dialecto</a>,<a href="https://www.wapit.io" target="_blank" rel="noopener noreferrer" class="text-white">Wapit</a></p>
+      </div>
+      <div class="mt-2">
+        <p>#js,#python,#node,#react,#django,#vue,#nextjs,#nuxtjs</p>
+        <p>#seo,#corewebvitals,#webperformance</p>
+        <p>#devops,#infra,#aws</p>
+        <p>#scrum,#leadership</p>
       </div>
     </div>
-    <div class="container-fluid">
-      <nav class="row  position-absolute w-100  p-3 p-md-2 navbar-expand-md">
-        <div class="navbar-brand" id="logo">
-          <img class="d-inline" src="img/logo.svg" alt="logo de joaquin mayer" width="60px" />
-          <h1 class="m-0 p-1 d-inline">Joaquín Mayer</h1>
-        </div>
-        <button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#menu"
-          aria-controls="menu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="">
-            <i class="fas fa-bars p-1"></i>
-          </span>
-        </button>
+  </div>
 
-        <div class=" collapse navbar-collapse" id="menu">
-          <div class="ml-auto row">
-            <ul class="navbar-nav col-12">
-              <li class="nav-item mx-3 active">
-                <a href="index.html" class="nav-link btn btn-outline-primary ">Inicio</a>
-              </li>
-              <li class="nav-item mx-3 ">
-                <a href="porfolio.html" class="nav-link btn btn-outline-primary ">Portfolio</a>
-              </li>
-              <li class="nav-item mx-3 ">
-                <a href="sobremi.html" class="nav-link btn btn-outline-primary ">Sobre Mí</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a href="contacto.html" class="nav-link btn btn-outline-primary">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="container-fluid p-0">
-      <div class="position-absolute p-5" id="infoDeveloper">
-        <div class="row text-left mt-md-5 mt-2">
-          <a id="volverDeveloper" class="text-right w-100 p-2">
-            Volver
-            <i class="fas fa-arrow-right p-1"></i>
-          </a>
-          <h4 class="col-12 col-md-10 mx-auto text-center">
-            <span class="font-italic "
-              >"La mayoría de los buenos programadores programan no porque esperan que les paguen o
-              que el público los adore, sino porque programar es divertido"</span
-            >
-            <small class="text-right d-block">Linus Torvalds</small>
-          </h4>
-          <div class="mt-5 col-12 col-md-10 mx-auto ">
-            <p>
-              Los sitios web se han vuelto más complejos a medida que avanza la tecnología. Lo que
-              solía ser un medio estático ahora se ha convertido en una experiencia muy rica e
-              interactiva.
-            </p>
-            <p>
-              Pero a pesar de los cambios tecnológicos, lo que importa es como perciben los usuarios
-              los sitios web. Por eso, desarrollo siempre a base de lo que pide el cliente y como va
-              a reaccionar el usuario al que le llega el producto, aplicando las últimas tendencias
-              para que se logre una excelente experiencia de usuario.
-            </p>
-          </div>
-          <h4 class="col-12 col-md-10 mx-auto">Tecnologías que uso:</h4>
-          <ul class="col-12 col-md-10 mx-auto pl-5">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>jQuery Mobile</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-          </ul>
-        </div>
-      </div>
-      <div class=" position-absolute p-5" id="infoDesign">
-        <div class="row text-left mt-md-5 mt-2">
-          <a id="volverDesign" class=" w-100 p-2"> <i class="fas fa-arrow-left p-1"></i>Volver</a>
-          <h4 class="col-12 col-md-10 mx-auto text-center">
-            <span class="font-italic "
-              >"Todo está diseñado, pero pocas cosas están diseñadas bien"</span
-            >
-            <small class="text-right d-block">Brian Reed</small>
-          </h4>
-          <div class="mt-5 col-12 col-md-10 mx-auto ">
-            <p>
-              El diseño web moderno es más complicado que crear un sitio web atractivo. Para el
-              diseño web siempre considero la experiencia del usuario, la optimización del motor de
-              búsqueda, la facilidad de uso y los detalles técnicos, el conjunto de estos elementos
-              son los necesarios para construir un diseño web moderno y cumplir las expectativas del
-              mercado actual.
-            </p>
-            <p>
-              Con más del 50% de todo el tráfico web proveniente de los dispositivos móviles, crear
-              un sitio web optimizado para dispositivos móviles ya no es opcional: es una necesidad.
-            </p>
-            <p>
-              El diseño web responsive permite que su sitio web se adapte y brinde una experiencia
-              óptima en cualquier dispositivo desde el que se lo esté viendo. Esto significa que su
-              sitio web se verá genial y funcionará perfectamente para un usuario en una computadora
-              de escritorio, laptop, tablet o smartphone.
-            </p>
-            <p>
-              Cada diseño que realizo es un diseño web responsive, que se adapta perfectamente a
-              cada dispositivo.
-            </p>
-          </div>
-          <h4 class="col-12 col-md-10 mx-auto">Heramientas que utilizo:</h4>
-          <ul class="col-12 col-md-10 mx-auto pl-5">
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobre Experience Design</li>
-            <li>Google Web Designer</li>
-          </ul>
-        </div>
-      </div>
-      <div class=" justify-content-center align-items-center side-left side" id="side-left">
-        <div class="row m-0">
-          <h2 class="px-5 py-2 lineButton col-12">
-            <span>DISEÑADOR WEB</span>
-          </h2>
-          <a href="#" class="more px-2 py-1 mx-auto" id="moreDesign">Ver más</a>
-        </div>
-      </div>
-      <div class=" justify-content-center align-items-center side-right side" id="side-right">
-        <div class="row m-0">
-          <h2 class="col-12 px-5 py-2 lineButton col-12">
-            <span>DESARROLLADOR WEB</span>
-          </h2>
-          <a href="#" class="more px-2 py-1 mx-auto" id="moreDeveloper">Ver más</a>
-        </div>
-      </div>
-    </div>
-  </body>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/loader.js"></script>
 </html>
