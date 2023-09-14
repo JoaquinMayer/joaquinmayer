@@ -29,10 +29,13 @@
     gtag('config', 'UA-119128955-1');
   </script>
 
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
     body {
       margin: 0;
       padding: 0;
+      background-color: #1b1f23;
     }
 
     p {
@@ -67,56 +70,116 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #1b1f23;
+      
       color: #FFF;
-    }
-
-    .text-center {
-      text-align: center;
-    }
-
-    .mt-1 {
-      margin-top: 1rem;
-    }
-
-    .mt-2 {
-      margin-top: 2rem;
-    }
-
-    .d-flex {
-      display: flex;
     }
 
     .justify-content-center {
       justify-content: center;
     }
-    .text-white{
+
+    .text-white {
       color: #FFF;
+    }
+
+    /* center the blockquote in the page */
+    .blockquote-wrapper {
+      display: flex;
+      padding: 0 20px;
+      margin-top: 2rem;
+    }
+
+    /* Blockquote main style */
+    .blockquote {
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight: 800;
+      color: #ffffff;
+      padding: 30px 0;
+      width: 100%;
+      max-width: 500px;
+      z-index: 1;
+      align-self: center;
+      border-top: solid 1px;
+      border-bottom: solid 1px;
+    }
+
+    /* Blockquote header */
+    .blockquote h3 {
+      position: relative;
+      color: #FFFFFF;
+      font-size: 1.2rem;
+      font-weight: 800;
+      line-height: 1;
+      margin: 0;
+    }
+
+    /* Blockquote right double quotes */
+    .blockquote:after {
+      position: absolute;
+      content: "”";
+      color: rgba(255, 255, 255, 1);
+      font-size: 9rem;
+      line-height: 0;
+      bottom: -43px;
+      right: 30px;
+    }
+
+    /* increase header size after 600px */
+    @media all and (min-width: 600px) {
+      .blockquote h1 {
+        font-size: 1.4rem;
+      }
+
+    }
+
+    /* Blockquote subheader */
+    .blockquote h4 {
+      position: relative;
+      color: #FFF;
+      font-size: .8rem;
+      font-weight: normal;
+      line-height: 1;
+      margin: 0;
+      padding-top: 20px;
+      z-index: 1;
     }
   </style>
 </head>
 
-<body>
-  <div id="root">
-    <div>
+<body class="min-h-screen">
+  <div id="root" class="min-h-screen">
+    <div class="container">
       <h2 class="h2">Full Stack Developer</h2>
       <h1 class="h1">Joaquín Mayer</h1>
-      <div class="text-center mt-1">
+      <div class="text-center mt-4">
         <p>🚧 Work In Progress 🚧</p>
       </div>
-      <div class="mt-1 d-flex justify-content-center">
+      <div class="mt-4 flex justify-content-center">
         <a href="https://www.linkedin.com/in/joaquinmayer/" target="_blank" rel="noopener noreferrer"><img
             src="/img/In-White-34.png" alt="linkedin white logo"></a>
       </div>
-      <div class="mt-2">
-        <p>Work: <a href="https://www.vexels.com" target="_blank" rel="noopener noreferrer" class="text-white">Vexels</a></p>
-        <p>Startup: <a href="https://www.dialecto.com" target="_blank" rel="noopener noreferrer" class="text-white">Dialecto</a>,<a href="https://www.wapit.io" target="_blank" rel="noopener noreferrer" class="text-white">Wapit</a></p>
+      <div class="mt-8">
+        <p>Work: <a href="https://www.vexels.com" target="_blank" rel="noopener noreferrer"
+            class="text-white underline">Vexels</a></p>
+        <p>Startup: <a href="https://www.dialecto.com" target="_blank" rel="noopener noreferrer"
+            class="text-white underline">Dialecto</a>,<a href="https://www.wapit.io" target="_blank" rel="noopener noreferrer"
+            class="text-white underline">Wapit</a></p>
       </div>
-      <div class="mt-2">
-        <p>#js,#python,#node,#react,#django,#vue,#nextjs,#nuxtjs</p>
-        <p>#seo,#corewebvitals,#webperformance</p>
-        <p>#devops,#infra,#aws</p>
-        <p>#scrum,#leadership</p>
+      <div class="mt-8 break-word">
+        <p>#js, #python, #node, #react, #django, #vue, #nextjs, #nuxtjs</p>
+        <p>#seo, #corewebvitals, #webperformance</p>
+        <p>#devops, #infra, #aws</p>
+        <p>#scrum, #leadership</p>
+      </div>
+      <div class="blockquote-wrapper mt-12">
+        <div class="blockquote m-auto relative">
+          <h3>
+            Programar es la danza armoniosa entre la lógica y la creatividad,
+            donde el programador es el coreógrafo de un ballet de instrucciones que transforman el caos en elegante
+            funcionalidad.
+          </h3>
+          <h4>&mdash; CHATGPT</h4>
+        </div>
       </div>
     </div>
   </div>
